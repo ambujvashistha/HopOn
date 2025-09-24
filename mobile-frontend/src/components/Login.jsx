@@ -27,9 +27,14 @@ export default function Login() {
 const styles = {
   loginBtn: {
     backgroundColor: "yellow",
+    borderRadius: 10,
+    padding: 10,
+    width: 60,
   },
   container: {
     backgroundColor: "orange",
+    padding: 20,
+    borderRadius: 20,
   },
   input: {
     margin: 15,
