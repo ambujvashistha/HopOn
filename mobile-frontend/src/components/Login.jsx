@@ -10,12 +10,17 @@ export default function Login() {
         style={styles.input}
         placeholder="Enter your E-mail"
       ></TextInput>
+      <TextInput
+        style={styles.input}
+        placeholder="Enter your password"
+      ></TextInput>
     </View>
   );
 }
 
 const styles = {
   input: {
+    margin: 15,
     padding: 20,
     width: 300,
     height: 40,
